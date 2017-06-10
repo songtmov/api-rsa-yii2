@@ -1,0 +1,22 @@
+{
+    "name": "song-yu/yii-api-rsa",
+    "type": "library",
+    "keywords": ["yii2","songyu","api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "songyu",
+            "email": "song8328787@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sky\\Demo\\"  : "src"
+        }
+    }   
+}
