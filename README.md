@@ -1,5 +1,7 @@
 # songyu/api-rsa
 
+运行以下加载该方法：
+
 composer global require "song-yu/yii-api-rsa:～1.0"
 
 composer require song-yu/yii-api-rsa
@@ -8,16 +10,19 @@ or
 
 "yiisoft/yii2": "~1.0",
 
-Yii 2 Advanced Project Template For TMOV-OA/1.0
+songyu/api-rsa
 ===============================
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+namespace sky/demo/hello;
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+string puben(str(),bool());
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+string prien(str(),bool());
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+string pubde(str(),bool());
+
+string pride(str(),bool());
+
+建议:传递数组json_encode()后 传入加密
+
+-- str字符串，bool是否base64整理加密（解密）数据
